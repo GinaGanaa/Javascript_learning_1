@@ -109,3 +109,16 @@ console.log(odNumbers);
 //Exercise 8: Array Duplicate Remover
 //Write a function that takes an array as input and returns a new array with duplicates removed
 //(e.g., [1, 2, 2, 3, 3, 4] -> [1, 2, 3, 4]).
+function duplicatesremove(input) {
+  let count = 0;
+  let array1 = [];
+  for (let i = 0; i <= 1; i++) {
+    if (input[i] != input[i + 1]) {
+      array1[count] = input[i];
+      count++;
+    }
+  }
+  return array1;
+}
+let newArray1 = duplicatesremove([1, 2, 2, 3, 3, 4]);
+console.log(newArray1);
