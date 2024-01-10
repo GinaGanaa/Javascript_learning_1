@@ -30,4 +30,4 @@ function sub(num1, num2) {
   return num1 - num2;
 }
 
-console.log(operation(10, 20, sub));
+console.log(operation(10, 20, add));
