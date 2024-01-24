@@ -121,5 +121,4 @@ let boldo = 52;
   console.log("Geriin boldo ", boldo);
 }
 console.log("Global boldo", boldo);
-
 console.log("a" < "b");
