@@ -12,4 +12,4 @@ if (balance > monthlyFee) {
 } else {
   console.log("need to add balance");
 }
-// 3n huvisagch zarlaad ali ihiig n oldog nested if else bich
+// 3n huvisagch zarlaad ali ihiig n oldog nested if else bich.
