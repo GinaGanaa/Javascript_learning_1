@@ -41,7 +41,7 @@ let minimumNum = minNum([64, 98, 76, 86, 3]);
 console.log("The minimum number is", minimumNum);
 //Exercise 4: Array Average
 //Write a function that takes an array of numbers as input and returns the average of all the numbers in the array.
-//find the sum then divide the sum by the number of the elemnts of the array
+//find the sum then divide the sum by the number of the elemnts of the array.
 function findAverage(array) {
   let sum = 0;
   let averageOfSum = 0;
